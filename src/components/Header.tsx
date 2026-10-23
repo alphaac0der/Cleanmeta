@@ -1,5 +1,6 @@
 import React from 'react';
 import { Sun, Moon, Info, Sparkles } from 'lucide-react';
+import { VisitorCounter } from './VisitorCounter';
 
 interface HeaderProps {
   theme: 'light' | 'dark';
@@ -69,6 +70,9 @@ export const Header: React.FC<HeaderProps> = ({
               )}
             </span>
           </button>
+
+          {/* Real Visitor Counter on the right side of the theme change button */}
+          <VisitorCounter />
         </div>
       </div>
     </header>
