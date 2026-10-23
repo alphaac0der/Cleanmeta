@@ -1,0 +1,7 @@
+{
+  "name": "Cleanmeta — Minimal Image Metadata Cleaner",
+  "description": "Inspect and remove embedded EXIF, GPS, XMP, and AI provenance metadata from image files.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
+
